@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PAYE</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(
+            function(){
+                $("#start").click(
+                    function (){
+                        grossIncome = $("#grossIncome").val();
+                        $.ajax({
+                            type: "POST",
+                            contentType: "application/json",
+                            dataType:"json",
+                            url: "http://0.0.0.0:5000/getNetIncome/",
+                            data: JSON.stringify({gross_income:grossIncome}),
+                            success: function(netIncome){
+                                alert("success")
+                                $("#netIncome").val(netIncome);
+                            },
+                            error:function (err){
+                                alert("something wrong");
+                            }
+                        });
+
+
+                    }
+                );
+
+
+        });
+    </script>
+
+</head>
+
+<body>
+<h1>PAYE</h1>
+<p>
+    Gross Income
+    <input type="number" min="0" max="99999999" id = "grossIncome">
+    <br>
+    Net Income
+    <input readonly type="number" id = "netIncome">
+</p>
+
+<button id="start">Start</button>
+</body>
+</html>
