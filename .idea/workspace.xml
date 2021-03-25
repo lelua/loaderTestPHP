@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38a148f0-fa13-48bd-b4b4-96807de4a2be" name="Default Changelist" comment="" />
+    <list default="true" id="38a148f0-fa13-48bd-b4b4-96807de4a2be" name="Default Changelist" comment="adding Hellow World">
+      <change beforePath="$PROJECT_DIR$/.idea/loaderTestPHP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/loaderTestPHP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -41,11 +45,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616556756782</updated>
-      <workItem from="1616556757876" duration="324000" />
+      <workItem from="1616556757876" duration="1408000" />
+      <workItem from="1616638627589" duration="414000" />
     </task>
+    <task id="LOCAL-00001" summary="adding composer">
+      <created>1616557363072</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616557363072</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adding Hellow World">
+      <created>1616557562610</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616557562610</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding composer" />
+    <MESSAGE value="adding Hellow World" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding Hellow World" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="667" y="328" key="Github.ShareDialog" timestamp="1616556895944">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="667" y="328" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1616556895944" />
+    <state x="600" y="135" key="Github.UntrackedFilesDialog" timestamp="1616556912092">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="600" y="135" key="Github.UntrackedFilesDialog/0.0.1600.860@0.0.1600.860" timestamp="1616556912092" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1616557563937">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1616557563937" />
   </component>
 </project>
